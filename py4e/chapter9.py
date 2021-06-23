@@ -25,8 +25,6 @@ for line in fhand:
 print(dic)
 
 # Exercise 4
-fhand = open("mbox-short.txt")
-dic = dict()
 most = None
 e = ""
 for email in dic:
