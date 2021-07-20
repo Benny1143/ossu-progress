@@ -1,0 +1,12 @@
+t1,TITLE,presidential debate
+
+// 9pm to 10:30pm
+t2,AFTER,19 Oct 2016 18:00:00
+
+t3,BEFORE,20 Oct 2016 01:30:00
+
+t4,AND,t2,t3
+
+t5,AND,t1,t4
+
+ADD,t5
