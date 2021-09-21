@@ -10,23 +10,24 @@ At the beginning of month 0 (when the credit card statement arrives), assume you
 
 Any payment you make during that month is deducted from the balance. Let's call the payment you make in month 0, ![equation](https://latex.codecogs.com/svg.image?p_0) Thus, your **unpaid balance** for month 0, ![equation](https://latex.codecogs.com/svg.image?ub_0), is equal to ![equation](https://latex.codecogs.com/svg.image?b_0-p_0).
 
-<div style="text-align:center">
-
-![equation](https://latex.codecogs.com/svg.image?ub_0=b_0-p_0)</div>
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.image?ub_0=b_0-p_0">
+</p>
 
 At the beginning of month 1, the credit card company will charge you interest on your unpaid balance. So if your annual interest rate is ![equation](https://latex.codecogs.com/svg.image?r), then at the beginning of month 1, your new balance is your previous unpaid balance ![equation](https://latex.codecogs.com/svg.image?ub_0), **plus** the interest on this unpaid balance for the month. In algebra, this new balance would be
 
-<div style="text-align:center">
-
-![equation](https://latex.codecogs.com/svg.image?b_1=ub_0+\frac{r}{12.0}\cdot%20ub_0)</div>
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.image?b_1=ub_0+\frac{r}{12.0}\cdot%20ub_0">
+</p>
 
 In month 1, we will make another payment, ![equation](https://latex.codecogs.com/svg.image?p_1). That payment has to cover some of the interest costs, so it does not completely go towards paying off the original charge. The balance at the beginning of month 2, ![equation](https://latex.codecogs.com/svg.image?b_2), can be calculated by first calculating the unpaid balance after paying ![equation](https://latex.codecogs.com/svg.image?p_1), then by adding the interest accrued:
 
-<div style="text-align:center">
-
-![equation](https://latex.codecogs.com/svg.image?ub_1=b_1-p_1)
-<br>
-![equation](https://latex.codecogs.com/svg.image?b_2=ub_1+\frac{r}{12.0}\cdot%20ub_1)</div>
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.image?ub_1=b_1-p_1">
+  <br>
+  <br>
+  <img src="https://latex.codecogs.com/svg.image?b_2=ub_1+\frac{r}{12.0}\cdot%20ub_1">
+</p>
 
 If you choose just to pay off the minimum monthly payment each month, you will see that the compound interest will dramatically reduce your ability to lower your debt.
 
